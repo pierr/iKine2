@@ -1,4 +1,8 @@
 IKine2::Application.routes.draw do
+ # match "/about", => :to => "pages#about"
+#  match "/contact", => :to => "pages#contact"
+  
+  #Access to the controllers.
   get "pages/home"
 
   get "pages/contact"
